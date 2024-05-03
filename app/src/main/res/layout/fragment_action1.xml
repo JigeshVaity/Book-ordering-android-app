@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/linear_action"
+    tools:context=".fragment_action1">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        >
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/ln1">
+            <ImageView
+                android:id="@+id/img1"
+                android:layout_width="80dp"
+                android:layout_height="135dp"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:src="@drawable/darkrose"
+                android:scaleType="centerCrop"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  Dark Rose"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:layout_marginLeft="0dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/ln2">
+            <ImageView
+                android:id="@+id/img2"
+                android:layout_width="80dp"
+                android:layout_height="135dp"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:src="@drawable/manhunter"
+                android:scaleType="centerCrop" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  ManHunter"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:layout_marginLeft="0dp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/ln3">
+            <ImageView
+                android:id="@+id/img3"
+                android:layout_width="80dp"
+                android:layout_height="135dp"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:src="@drawable/thelastkingdom"
+                android:scaleType="centerCrop" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="    The Last \n    Kingdom"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:layout_marginLeft="0dp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/ln4">
+            <ImageView
+                android:id="@+id/img4"
+                android:layout_width="80dp"
+                android:layout_height="135dp"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:src="@drawable/thechroniclesofnarnia"
+                android:scaleType="centerCrop" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  Chronicles \n   of Narnia"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:layout_marginLeft="0dp"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/ln5">
+            <ImageView
+                android:id="@+id/img5"
+                android:layout_width="80dp"
+                android:layout_height="135dp"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:src="@drawable/themingstorm"
+                android:scaleType="centerCrop" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  The Ming \n     Storm"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/ln6">
+            <ImageView
+                android:id="@+id/img6"
+                android:layout_width="80dp"
+                android:layout_height="135dp"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:src="@drawable/thehiddenoracle1"
+                android:scaleType="centerCrop"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" The Hidden \n      Oracle"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/ln7">
+            <ImageView
+                android:id="@+id/img7"
+                android:layout_width="80dp"
+                android:layout_height="135dp"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:src="@drawable/thedesecrationofallsaints"
+                android:scaleType="centerCrop"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" The \n Desecration  \n of All Saints"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/ln8">
+            <ImageView
+                android:id="@+id/img8"
+                android:layout_width="80dp"
+                android:layout_height="135dp"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:src="@drawable/warriorsaintsdestroyer"
+                android:scaleType="centerCrop" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="    Warrior \n    Saints- \n    Destroyer"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

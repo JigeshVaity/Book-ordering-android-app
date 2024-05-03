@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "526423648580",
+    "project_id": "bookmart-62b7a",
+    "storage_bucket": "bookmart-62b7a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:526423648580:android:561c59cf9ef5e6d8b2cf11",
+        "android_client_info": {
+          "package_name": "com.example.bookmart"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3QaQsAOVAHOab_ObY7sw4-foQ4tFxlDo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

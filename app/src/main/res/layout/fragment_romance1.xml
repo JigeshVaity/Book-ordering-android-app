@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragment_romance1">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/ln1">
+            <ImageView
+                android:id="@+id/img1"
+                android:layout_width="80dp"
+                android:layout_height="135dp"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                    android:src="@drawable/toforgeahollowcrown"
+                android:scaleType="centerCrop"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="    To Forge\n    a Hollow\n      Crown"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:layout_marginLeft="0dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/ln2">
+            <ImageView
+                android:id="@+id/img2"
+                android:layout_width="80dp"
+                android:layout_height="135dp"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:src="@drawable/inhishands"
+                android:scaleType="centerCrop" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="      In His \n      Hands"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:layout_marginLeft="0dp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/ln3">
+            <ImageView
+                android:id="@+id/img3"
+                android:layout_width="80dp"
+                android:layout_height="135dp"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:src="@drawable/midnightrider"
+                android:scaleType="centerCrop" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="    Midnight \n       Rider"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:layout_marginLeft="0dp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/ln4">
+            <ImageView
+                android:id="@+id/img4"
+                android:layout_width="80dp"
+                android:layout_height="135dp"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:src="@drawable/onceuponadream"
+                android:scaleType="centerCrop" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  Once Upon \n    a Dream"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:layout_marginLeft="0dp"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/ln5">
+            <ImageView
+                android:id="@+id/img5"
+                android:layout_width="80dp"
+                android:layout_height="135dp"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:src="@drawable/poptartsandmistletoe"
+                android:scaleType="centerCrop" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="   Pop Tarts \n       and \n    Mistletoe"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/ln6">
+            <ImageView
+                android:id="@+id/img6"
+                android:layout_width="80dp"
+                android:layout_height="135dp"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:src="@drawable/allthatwearetogether"
+                android:scaleType="centerCrop"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  All That We \n Are Together"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/ln7">
+            <ImageView
+                android:id="@+id/img7"
+                android:layout_width="80dp"
+                android:layout_height="135dp"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:src="@drawable/beautyfound"
+                android:scaleType="centerCrop"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="      Beauty \n      Found"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/ln8">
+            <ImageView
+                android:id="@+id/img8"
+                android:layout_width="80dp"
+                android:layout_height="135dp"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:src="@drawable/bondedbeyondlies"
+                android:scaleType="centerCrop" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="    Bonded \n    Beyond \n       Lies"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

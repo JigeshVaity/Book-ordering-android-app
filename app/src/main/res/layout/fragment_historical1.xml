@@ -1,0 +1,205 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragment_historical1">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/ln1">
+            <ImageView
+                android:id="@+id/img1"
+                android:layout_width="80dp"
+                android:layout_height="135dp"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:src="@drawable/thetreeline"
+                android:scaleType="centerCrop"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="       The \n    Treeline"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:layout_marginLeft="0dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/ln2">
+            <ImageView
+                android:id="@+id/img2"
+                android:layout_width="80dp"
+                android:layout_height="135dp"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:src="@drawable/empireoficeandstone"
+                android:scaleType="centerCrop" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="   Empire of \n    Ice and \n      Stone"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:layout_marginLeft="0dp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/ln3">
+            <ImageView
+                android:id="@+id/img3"
+                android:layout_width="80dp"
+                android:layout_height="135dp"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:src="@drawable/intosiberia"
+                android:scaleType="centerCrop" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  Into Siberia"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:layout_marginLeft="0dp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/ln4">
+            <ImageView
+                android:id="@+id/img4"
+                android:layout_width="80dp"
+                android:layout_height="135dp"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:src="@drawable/worlddeparted"
+                android:scaleType="centerCrop" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="      World \n    Departed"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:layout_marginLeft="0dp"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/ln5">
+            <ImageView
+                android:id="@+id/img5"
+                android:layout_width="80dp"
+                android:layout_height="135dp"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:src="@drawable/wrathbecomesher"
+                android:scaleType="centerCrop" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="       Wrath \n    Becomes \n          Her"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/ln6">
+            <ImageView
+                android:id="@+id/img6"
+                android:layout_width="80dp"
+                android:layout_height="135dp"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:src="@drawable/ahistoryofcrimeandamericancriminaljusticesystem"
+                android:scaleType="centerCrop"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  American \n  Criminal \n   Justice \n    System"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/ln7">
+
+            <ImageView
+                android:id="@+id/img7"
+                android:layout_width="80dp"
+                android:layout_height="135dp"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:src="@drawable/nochildofmine"
+                android:scaleType="centerCrop"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="    No Child \n     of Mine"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/ln8">
+            <ImageView
+                android:id="@+id/img8"
+                android:layout_width="80dp"
+                android:layout_height="135dp"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:src="@drawable/amodernleganhistoryoftreasure"
+                android:scaleType="centerCrop" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Legal History \nof Treasure"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
